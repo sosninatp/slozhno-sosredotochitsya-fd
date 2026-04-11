@@ -35,8 +35,25 @@ picture {
 
 button,
 a {
+  /* color: currentColor; означает, что текст в элементе (кнопка или ссылка) 
+  будет иметь цвет текущего текста элемента или его родителя. */
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+
 }
+
+button {
+
+  appearance: none;
+
+  background-color: transparent;
+  text-transform: lowercase;
+  border: none;
+}
+
+/* уубрать: */
+/* * {
+  outline: 1px solid red;
+} */
