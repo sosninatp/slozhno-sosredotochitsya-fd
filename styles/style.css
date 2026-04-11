@@ -19,7 +19,7 @@
   position: relative;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  min-height: 100vh;
+  height: 100vh;
   padding: var(--header-padding-mobile);
   @media (width > 768px) {
     min-height: 1024px;
@@ -298,7 +298,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   padding: 0 10px;
   @media (width > 768px) {
     min-height: 1024px;
